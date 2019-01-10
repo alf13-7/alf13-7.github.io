@@ -1,0 +1,607 @@
+/*---- setting font chiller ----*/
+@font-face{
+   font-family: /*'chiller'*/ ;
+   src: url('C:/Users/Alfie/Documents/SitesFour/alf13-7.github.io/index.html/ASSETS/CHILLER.TTF') format('truetype');
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+/*----setting header----*/
+.header > h1{
+	color : white;
+	text-align: center;
+	font-family: /*'chiller'*/Arial;
+	font-weight: bold;
+	font-size: 7vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-right: 6vw;
+}
+.header > a > #instagram{
+	padding-top: 10px;
+	float: left;	
+	height: 3vw;
+	width: 3vw;
+}
+.header > a > #twitter{
+	padding-top: 10px;
+	float: left;	
+	height: 3vw;
+	width: 3.9vw
+}
+.header > a > #facebook{
+	padding-top: 10px;
+	padding-left: 5px;
+	float: left;	
+	height: 3vw;
+	width: 3vw;
+}
+.header > a > #cart{
+	float: right;
+	width: 4.2vw;
+	height: 4.2vw;
+	padding-top: 2.4vw;
+	padding-right: 3.6vw;
+}
+/*----setting body----*/
+body{
+	margin: 0;
+	padding-top: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}	
+
+/*----moving video----*/
+div{
+	padding-bottom: 2vw;
+	padding-left: 4vw;
+	padding-top: 10px;
+}
+
+/*----making nav bar----*/
+.navigationMenu{
+	/*background: blue;*/
+	padding: 5px;
+	font-size: 2vw;
+	font-family: /*'chiller'*/ Arial;
+}
+
+.navigationMenu > .pageButtons{
+	background: blue;
+	width: 96%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2vw;
+	margin-top; 0;
+}
+
+.navigationMenu > .pageButtons > a {
+	transition: all 0.8s;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 5px 0;
+	list-style: none;
+	text-decoration: none;	
+}
+
+.navigationMenu > .pageButtons > a:hover{
+	background: white;
+	color: black;
+}
+
+#burger{
+	display: none;
+}
+
+.navigationMenu > label{
+	display: none;
+}
+
+/*----footer----*/
+.socialPhone{
+	display: none;
+}
+
+.socialPhone > a > #instagram{
+	padding-top: 10px;
+	float: left;	
+	height: 20px;
+	width: 20px;
+}
+.socialPhone > a > #twitter{
+	padding-top: 10px;
+	float: left;	
+	height: 20px;
+	width: 26px;
+}
+.socialPhone > a > #facebook{
+	padding-top: 10px;
+	padding-left: 5px;
+	float: left;	
+	height: 20px;
+	width: 20px;
+}
+.footer > h1{
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+}
+.footer{
+	padding-top: 15vw;
+}
+
+.customiseFooter{
+	padding-top: 30vw;
+}
+
+/*----designing front page text----*/
+#text{
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	
+}
+#text > p1, p3 {
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	font-size: 5vw;
+	font-family: /*'chiller'*/ Arial;
+}
+#text > p2, p4 {
+	#background-color: black;
+	color: white;
+	font-size: 1.25vw;
+	font-family: Arial;
+}
+
+/*----designing image page----*/
+.rowOne > .column > #imageOne:hover, #imageTwo:hover, #imageThree:hover{
+	box-shadow: 5px 10px 18px #00FFFF;
+	transition: all 0.8s;
+	filter:invert(75%);
+	transform: scale(1.05);
+}
+.rowOne > .column > #imageOne, #imageTwo, #imageThree{
+	width: 32vw;
+	height: 18vw;
+}
+/*480px 270px */
+.rowOne > .column{
+	float: left;
+	width: 50%;
+	padding: 0.01vw;
+}
+.rowOne{
+	display: flex;
+	padding-left: 5px;
+	margin-left: 0;
+	padding-bottom: 5px;
+}
+.rowTwo{
+	padding-left: 0.3vw;
+	margin-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.rowTwo > #imageOne{
+	width: 97.6vw;
+	height: 54.9vw;
+}
+/*1488px 837px */
+.rowTwo > #imageOne:hover{
+	transition: all 0.8s;
+	filter:invert(75%);
+	box-shadow: 5px 10px 18px #00FFFF;
+}
+
+
+.rowThree > .columnTwo > #imageFour:hover, #imageFive:hover, #imageSix:hover, #imageSeven:hover{
+	transition: all 0.8s;
+	filter:invert(75%);
+	transform: scale(1.05);
+	box-shadow: 5px 10px 18px #00FFFF;
+}
+.rowThree > .columnTwo > #imageFour, #imageFive, #imageSix, #imageSeven{
+	width: 23.5vw;
+	height: 23.5vw;
+}
+/*480px 270px */
+.rowThree > .columnTwo{
+	float: left;
+	width: 25%;
+	padding-left: 0.01vw;
+}
+.rowThree{
+	display: flex;
+	padding-left: 5px;
+	margin-left: 0;
+	padding-bottom: 5px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/*----About page----*/
+#aboutPage{
+	color: white;
+	text-align: left;
+	padding-left: 15vw;
+}
+#aboutPage > p1 {
+	font-size: 8vw;
+	font-family: /*'chiller'*/Arial;
+}
+#aboutPage > p2 {
+	font-size: 1.25vw;
+	font-family: Arial;
+}
+
+/*----youtube videos----*/
+.ytVideos > #video1{
+	margin-right: 80px;
+	margin-left: 10vw;
+}
+#youtubeTitle > p{
+	color: white;
+	font-family: /*'chiller'*/ Arial;
+	font-size: 5vw;
+	font-weight: bold;
+	text-align: center;
+}
+.ytVideosTwo > #video1{
+	margin-right: 80px;
+	margin-left: 10vw;
+}
+
+
+/*----Music page----*/
+#follow{
+	padding-left: 850px;
+	padding-bottom: 30px;
+}
+.albumOne > #albumImageOne, #albumImageTwo, #albumImageThree{
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+.albumOne > h1{
+	color: white;
+	float: right;
+	padding-right: 28vw;
+	font-family: /*'chiller'*/ Arial;
+	font-size: 2vw;
+}
+.albumOne > h2{
+	color: white;
+	float : right;
+	padding-right: 50vw;
+	font-family: /*'chiller'*/ Arial;
+	font-size: 2vw;
+}
+.albumOne > h3{
+	color: white;
+	float : right;
+	padding-right: 40vw;
+	font-family: /*'chiller'*/ Arial;
+	font-size: 2vw;
+}
+.albumOne > #albumOne, #albumTwo, #albumThree{
+	padding-left: 30px;
+	padding-top: 0;
+	margin-top: 0;
+	width: 700px;
+	height: 400px;
+	
+}
+.albumOne > #albumOnePhone, #albumTwoPhone, #albumThreePhone{
+	display: none;
+}
+
+
+/*----Shop page----*/
+.merch > #merchOne{	
+	width: 20vw;
+	height: 20vw;
+	padding-left: 5vw;	
+	padding-top: 10px;
+	margin-top: 0;
+}
+.merch > #arrowRight{
+	float: right;
+	width: 12vw;
+	height: 12vw;
+	padding-right: 25vw;
+	padding-top: 5.7vw;
+}
+.merch > #arrowLeft{
+	float: left;
+	width: 12vw;
+	height: 12vw;
+	padding-left: 15vw;
+	padding-top: 5vw;
+}
+.options > #addToCart, #customise{
+	margin-left: 29vw;
+	background-color: blue;
+	border: none;
+	/*padding: 10px 150px;*/
+	padding: 1vw 10vw;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;	
+}
+.merch > #price{
+	color: white;
+	font-size: 3.5vw;
+	padding-left: 36.5vw;
+	font-family: Arial;
+	font-weight: bold;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.options > #customise{
+	display: none;
+}
+
+#toggle{
+	display: none;
+}
+
+.nav{
+	display:none;
+}
+
+/*----Customise page----*/
+
+.pickImage > .multiImage > #pickOne{
+	float:left;
+	width: 25vw;
+	height: 25vw;
+	padding-left: 10vw;
+	padding-top: 5vw;
+	
+}
+
+.pickImage > .multiImage > #designOne{
+	width: 10vw;
+	height: 10vw;
+	float: left;
+	padding-left: 17vw;
+	padding-top: 10vw;
+	display: none;
+}
+
+.pickImage > h1 {
+	font-family: /*'chiller'*/ Arial;
+	color: white;
+	font-size: 4vw;
+	float: right;
+	padding-right: 20vw;
+}
+
+.pickImage > h2{
+	font-family: /*'chiller'*/ Arial;
+	color: white; 
+	font-size: 4vw;
+	float: right;
+	padding-right: 18vw;
+}
+
+.pickImage > .colours > #colourOne, #colourTwo, #colourThree, #colourFour{
+	width: 6vw;
+	height: 6vw;
+	padding-right: 1vw;
+}
+
+.pickImage > .colours{
+	float: right;
+	padding-right: 24vw;;
+}
+
+.pickImage > .customDesign > #customOne, #customTwo, #customThree, #customFour{
+	width: 6vw;
+	height: 6vw;
+	padding-left: 1vw;
+}
+
+.pickImage > .customDesign{
+	float: right;
+	margin-right: 26vw;
+	padding-right: 4vw;
+	background-color: white;
+}
+
+
+
+/*----Cart Page----*/
+
+.cartBackground{
+	 background-color:gray;
+	 padding-bottom:600px;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 margin-top: 40px;
+}
+
+.cartBackground > h1{
+	color: black;
+	font-family: /*'chiller'*/;
+	font-weight: bold;
+	float: left;
+	padding-left: 650px;
+	font-size: 90px;
+}
+
+.cartBackground > #itemOne{
+	float: left;
+	padding-left: 400px;
+	height: 200px;
+	width: 200px;
+}
+
+/*----demo page----*/
+
+.walkThrough > #walkThroughvideo{
+	margin-left: 200px;
+}
+
+
+
+/*--------MOBILE DESIGN--------*/
+
+@media only screen and (max-width: 700px) {
+	
+	/*----Home page----*/
+	.header > h1{
+		font-size: 60px;
+		text-align: center;
+		padding-right: 0;
+		margin-right: 0;
+		padding-left: 20px;
+	}
+		
+	#text > p1, p3 {
+		font-weight: bold;
+		background-color: black;
+		color: white;
+		font-size: 40px;
+		font-family: /*'chiller'*/ Arial;
+	}
+	#text > p2, p4 {
+		color: white;
+		font-size: 12px;
+		font-family: Arial;
+	}
+	.header > a{
+		display:none;
+	}
+	/*----navigation bar----*/
+	.navigationMenu > .pageButtons{
+		flex-direction: column;
+		display: none;
+	}
+	
+	.navigationMenu label{
+		display: flex;
+		cursor: pointer;
+		float: right;
+		color: white;
+		margin-right: 5px;
+		font-size: 30px;
+	}
+	
+	#burger:checked + .pageButtons{
+		display: flex;
+	}
+	
+	/*----about page----*/
+	
+	#aboutPage{
+		text-align: none;
+	}
+	
+	#aboutPage > p1 {
+		text-align: center;
+		font-size: 100px;
+		font-family: /*'chiller'*/Arial;
+	}
+	#aboutPage > p2 {
+		font-size: 10px;
+		text-align: left;
+		padding-left: 6px;
+	}
+	
+	/*---- Images page----*/
+	
+	.rowOne{
+		padding-top: 40px;
+	}
+	
+	.socialPhone{
+		display: flex;
+	}
+	
+	/*----music page----*/
+	
+	#follow{
+	padding-left: 120px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	}
+	.albumOne > #albumImageOne, #albumImageTwo, #albumImageThree{
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	.albumOne > h1{
+		color: white;
+		float: right;
+		padding-right: 800px;
+		font-family: /*'chiller'*/ Arial;
+		font-size: 20px;
+	}
+	.albumOne > h2{
+		color: white;
+		float : right;
+		padding-right: 1050px;
+		font-family: /*'chiller'*/ Arial;
+		font-size: 3.5vw;
+	}
+	.albumOne > h3{
+		color: white;
+		float : right;
+		padding-right: 820px;
+		font-family: /*'chiller'*/ Arial;
+		font-size: 3.5vw;
+	}
+	.albumOne > #albumOne, #albumTwo, #albumThree{
+		padding-left: 5px;
+		padding-top: 0;
+		margin-top: 0;
+		display: none;
+	
+	}
+	
+	.albumOne > #albumOnePhone, #albumTwoPhone, #albumThreePhone{
+		display: flex;
+		padding-left: 5px;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
+	.footer > h1{
+		font-size: 10px;
+	}
+	
+	/*----customise page----*/
+	
+	.pickImage > h1{
+		float: right;
+		padding-right: 10vw;
+	}
+	
+	.pickImage > .colours{
+		float: right;
+		padding-right: 20vw;;
+	}
+	
+	.pickImage > .customDesign{
+		float: right;
+		padding-right: 20vw;
+	}
+	
+	.customiseFooter{
+		padding-top: 40vw;
+	}
+	
+}
+
+
+
+
